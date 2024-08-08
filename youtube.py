@@ -17,7 +17,7 @@ def download_video(url, output_path='video-data'):
         print(f"An error occurred: {e}")
 
 # Replace 'URL' with the YouTube video URL you want to download
-video_url = 'https://www.youtube.com/watch?v=059irIziaOo'
-output_path = 'video-data'  # You can specify the output path if needed
+video_url = 'url'
+output_path = 'path'  # You can specify the output path if needed
 
 download_video(video_url, output_path)
